@@ -26,3 +26,10 @@
 *.exe
 *.out
 *.app
+
+# XCode, Mac OS X
+xcuserdata
+.DS_Store
+.Trashes
+*.swp
+*.lock
