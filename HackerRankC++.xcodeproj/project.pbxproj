@@ -6,10 +6,83 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B16E63BB1A90E08D00E6BD6B /* solve_me_first.cc in Sources */ = {isa = PBXBuildFile; fileRef = B16E63BA1A90E08D00E6BD6B /* solve_me_first.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B16E63B61A90E08D00E6BD6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B16E63B81A90E08D00E6BD6B /* Solve Me First */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Solve Me First"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16E63BA1A90E08D00E6BD6B /* solve_me_first.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = solve_me_first.cc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B16E63B51A90E08D00E6BD6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
+		B16E63B91A90E08D00E6BD6B /* algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				B16E63BF1A90E10000E6BD6B /* 1_warmup */,
+			);
+			name = algorithms;
+			path = "Solve Me First";
+			sourceTree = "<group>";
+		};
+		B16E63BF1A90E10000E6BD6B /* 1_warmup */ = {
+			isa = PBXGroup;
+			children = (
+				B16E63C21A90E97300E6BD6B /* problems */,
+				B16E63C11A90E96A00E6BD6B /* test */,
+				B16E63C01A90E95A00E6BD6B /* src */,
+			);
+			name = 1_warmup;
+			sourceTree = "<group>";
+		};
+		B16E63C01A90E95A00E6BD6B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B16E63BA1A90E08D00E6BD6B /* solve_me_first.cc */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		B16E63C11A90E96A00E6BD6B /* test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		B16E63C21A90E97300E6BD6B /* problems */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = problems;
+			sourceTree = "<group>";
+		};
 		B1A6CEDA1A90DC630009C290 = {
 			isa = PBXGroup;
 			children = (
+				B16E63B91A90E08D00E6BD6B /* algorithms */,
 				B1A6CEE41A90DC630009C290 /* Products */,
 			);
 			indentWidth = 2;
@@ -19,11 +92,32 @@
 		B1A6CEE41A90DC630009C290 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				B16E63B81A90E08D00E6BD6B /* Solve Me First */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B16E63B71A90E08D00E6BD6B /* Solve Me First */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16E63BC1A90E08D00E6BD6B /* Build configuration list for PBXNativeTarget "Solve Me First" */;
+			buildPhases = (
+				B16E63B41A90E08D00E6BD6B /* Sources */,
+				B16E63B51A90E08D00E6BD6B /* Frameworks */,
+				B16E63B61A90E08D00E6BD6B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solve Me First";
+			productName = "Solve Me First";
+			productReference = B16E63B81A90E08D00E6BD6B /* Solve Me First */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B1A6CEDB1A90DC630009C290 /* Project object */ = {
@@ -31,6 +125,11 @@
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Ulysses Bonfim";
+				TargetAttributes = {
+					B16E63B71A90E08D00E6BD6B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
 			};
 			buildConfigurationList = B1A6CEDE1A90DC630009C290 /* Build configuration list for PBXProject "HackerRankC++" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -44,11 +143,41 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				B16E63B71A90E08D00E6BD6B /* Solve Me First */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXSourcesBuildPhase section */
+		B16E63B41A90E08D00E6BD6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16E63BB1A90E08D00E6BD6B /* solve_me_first.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
 /* Begin XCBuildConfiguration section */
+		B16E63BD1A90E08D00E6BD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B16E63BE1A90E08D00E6BD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		B1A6CEE81A90DC630009C290 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -126,6 +255,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B16E63BC1A90E08D00E6BD6B /* Build configuration list for PBXNativeTarget "Solve Me First" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16E63BD1A90E08D00E6BD6B /* Debug */,
+				B16E63BE1A90E08D00E6BD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B1A6CEDE1A90DC630009C290 /* Build configuration list for PBXProject "HackerRankC++" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

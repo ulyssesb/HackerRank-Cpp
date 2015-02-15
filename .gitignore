@@ -29,7 +29,8 @@
 
 # XCode, Mac OS X
 xcuserdata
-.DS_Store
+*.xuserstate
+*.DS_Store
 .Trashes
 *.swp
 *.lock
