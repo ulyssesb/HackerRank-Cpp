@@ -12,7 +12,9 @@
 			children = (
 				B1A6CEE41A90DC630009C290 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		B1A6CEE41A90DC630009C290 /* Products */ = {
 			isa = PBXGroup;
