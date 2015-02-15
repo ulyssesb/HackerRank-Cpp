@@ -6,42 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		B1A6CEE71A90DC630009C290 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1A6CEE61A90DC630009C290 /* main.cpp */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		B1A6CEE11A90DC630009C290 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
-/* Begin PBXFileReference section */
-		B1A6CEE31A90DC630009C290 /* HackerRankC++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HackerRankC++"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1A6CEE61A90DC630009C290 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		B1A6CEE01A90DC630009C290 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
 		B1A6CEDA1A90DC630009C290 = {
 			isa = PBXGroup;
 			children = (
-				B1A6CEE51A90DC630009C290 /* HackerRankC++ */,
 				B1A6CEE41A90DC630009C290 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,40 +17,11 @@
 		B1A6CEE41A90DC630009C290 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1A6CEE31A90DC630009C290 /* HackerRankC++ */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B1A6CEE51A90DC630009C290 /* HackerRankC++ */ = {
-			isa = PBXGroup;
-			children = (
-				B1A6CEE61A90DC630009C290 /* main.cpp */,
-			);
-			path = "HackerRankC++";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		B1A6CEE21A90DC630009C290 /* HackerRankC++ */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B1A6CEEA1A90DC630009C290 /* Build configuration list for PBXNativeTarget "HackerRankC++" */;
-			buildPhases = (
-				B1A6CEDF1A90DC630009C290 /* Sources */,
-				B1A6CEE01A90DC630009C290 /* Frameworks */,
-				B1A6CEE11A90DC630009C290 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "HackerRankC++";
-			productName = "HackerRankC++";
-			productReference = B1A6CEE31A90DC630009C290 /* HackerRankC++ */;
-			productType = "com.apple.product-type.tool";
-		};
-/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B1A6CEDB1A90DC630009C290 /* Project object */ = {
@@ -90,11 +29,6 @@
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Ulysses Bonfim";
-				TargetAttributes = {
-					B1A6CEE21A90DC630009C290 = {
-						CreatedOnToolsVersion = 6.1.1;
-					};
-				};
 			};
 			buildConfigurationList = B1A6CEDE1A90DC630009C290 /* Build configuration list for PBXProject "HackerRankC++" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -108,21 +42,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B1A6CEE21A90DC630009C290 /* HackerRankC++ */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		B1A6CEDF1A90DC630009C290 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1A6CEE71A90DC630009C290 /* main.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		B1A6CEE81A90DC630009C290 /* Debug */ = {
@@ -199,20 +121,6 @@
 			};
 			name = Release;
 		};
-		B1A6CEEB1A90DC630009C290 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		B1A6CEEC1A90DC630009C290 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -224,14 +132,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		B1A6CEEA1A90DC630009C290 /* Build configuration list for PBXNativeTarget "HackerRankC++" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B1A6CEEB1A90DC630009C290 /* Debug */,
-				B1A6CEEC1A90DC630009C290 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
