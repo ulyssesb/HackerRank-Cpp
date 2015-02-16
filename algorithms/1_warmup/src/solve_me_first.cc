@@ -7,9 +7,17 @@
 //
 
 #include <iostream>
+using namespace std;
+
+int sumTwoIntegers (const int& num1, const int& num2) {
+  return num1 + num2;
+}
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+  
+  int num1, num2;
+  cin >> num1 >> num2;
+  
+  auto sum = sumTwoIntegers(num1, num2);
+  cout << sum;
 }
