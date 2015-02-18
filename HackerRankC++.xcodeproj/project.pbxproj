@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B163C0831A94B39600470EF6 /* solve_me_second.cc in Sources */ = {isa = PBXBuildFile; fileRef = B163C0821A94B39600470EF6 /* solve_me_second.cc */; };
 		B18462761A92733D00ECC205 /* lonely-integer.cc in Sources */ = {isa = PBXBuildFile; fileRef = B18462751A92733D00ECC205 /* lonely-integer.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		B163C07E1A94B39600470EF6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		B16E63B61A90E08D00E6BD6B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,6 +42,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B163C07B1A94B2BE00470EF6 /* solve-me-second-English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "solve-me-second-English.pdf"; path = "../src/solve-me-second-English.pdf"; sourceTree = "<group>"; };
+		B163C0801A94B39600470EF6 /* Solve Me Second */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Solve Me Second"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B163C0821A94B39600470EF6 /* solve_me_second.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = solve_me_second.cc; path = "../../../Solve Me Second/solve_me_second.cc"; sourceTree = "<group>"; };
 		B16E63B81A90E08D00E6BD6B /* Solve Me First */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Solve Me First"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16E63BA1A90E08D00E6BD6B /* solve_me_first.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = solve_me_first.cc; sourceTree = "<group>"; };
 		B16E63D31A9119FE00E6BD6B /* solve-me-first-English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "solve-me-first-English.pdf"; sourceTree = "<group>"; };
@@ -41,6 +54,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B163C07D1A94B39600470EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B16E63B51A90E08D00E6BD6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -79,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				B16E63BA1A90E08D00E6BD6B /* solve_me_first.cc */,
+				B163C0821A94B39600470EF6 /* solve_me_second.cc */,
 				B18462751A92733D00ECC205 /* lonely-integer.cc */,
 			);
 			path = src;
@@ -87,6 +108,7 @@
 		B16E63C21A90E97300E6BD6B /* problems */ = {
 			isa = PBXGroup;
 			children = (
+				B163C07B1A94B2BE00470EF6 /* solve-me-second-English.pdf */,
 				B18462691A92728500ECC205 /* lonely-integer-English.pdf */,
 				B16E63D31A9119FE00E6BD6B /* solve-me-first-English.pdf */,
 			);
@@ -108,6 +130,7 @@
 			children = (
 				B16E63B81A90E08D00E6BD6B /* Solve Me First */,
 				B184626E1A9272E000ECC205 /* Lonely Integer */,
+				B163C0801A94B39600470EF6 /* Solve Me Second */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +138,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B163C07F1A94B39600470EF6 /* Solve Me Second */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B163C0841A94B39600470EF6 /* Build configuration list for PBXNativeTarget "Solve Me Second" */;
+			buildPhases = (
+				B163C07C1A94B39600470EF6 /* Sources */,
+				B163C07D1A94B39600470EF6 /* Frameworks */,
+				B163C07E1A94B39600470EF6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solve Me Second";
+			productName = "Solve Me Second";
+			productReference = B163C0801A94B39600470EF6 /* Solve Me Second */;
+			productType = "com.apple.product-type.tool";
+		};
 		B16E63B71A90E08D00E6BD6B /* Solve Me First */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B16E63BC1A90E08D00E6BD6B /* Build configuration list for PBXNativeTarget "Solve Me First" */;
@@ -158,6 +198,9 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Ulysses Bonfim";
 				TargetAttributes = {
+					B163C07F1A94B39600470EF6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
 					B16E63B71A90E08D00E6BD6B = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
@@ -180,11 +223,20 @@
 			targets = (
 				B16E63B71A90E08D00E6BD6B /* Solve Me First */,
 				B184626D1A9272E000ECC205 /* Lonely Integer */,
+				B163C07F1A94B39600470EF6 /* Solve Me Second */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B163C07C1A94B39600470EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B163C0831A94B39600470EF6 /* solve_me_second.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B16E63B41A90E08D00E6BD6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -203,6 +255,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		B163C0851A94B39600470EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B163C0861A94B39600470EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		B16E63BD1A90E08D00E6BD6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -316,6 +388,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B163C0841A94B39600470EF6 /* Build configuration list for PBXNativeTarget "Solve Me Second" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B163C0851A94B39600470EF6 /* Debug */,
+				B163C0861A94B39600470EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B16E63BC1A90E08D00E6BD6B /* Build configuration list for PBXNativeTarget "Solve Me First" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
