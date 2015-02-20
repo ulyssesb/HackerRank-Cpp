@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B163C0831A94B39600470EF6 /* solve_me_second.cc in Sources */ = {isa = PBXBuildFile; fileRef = B163C0821A94B39600470EF6 /* solve_me_second.cc */; };
 		B163C08F1A94C63700470EF6 /* flipping_bits.cc in Sources */ = {isa = PBXBuildFile; fileRef = B163C08E1A94C63700470EF6 /* flipping_bits.cc */; };
+		B163C09B1A94CF1B00470EF6 /* alternating_characters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B163C09A1A94CF1B00470EF6 /* alternating_characters.cpp */; };
 		B18462761A92733D00ECC205 /* lonely-integer.cc in Sources */ = {isa = PBXBuildFile; fileRef = B18462751A92733D00ECC205 /* lonely-integer.cc */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		B163C08A1A94C63600470EF6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B163C0961A94CF1B00470EF6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -58,6 +68,9 @@
 		B163C0871A94C61C00470EF6 /* flipping-bits-English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "flipping-bits-English.pdf"; sourceTree = "<group>"; };
 		B163C08C1A94C63600470EF6 /* Flipping Bits */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Flipping Bits"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B163C08E1A94C63700470EF6 /* flipping_bits.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = flipping_bits.cc; path = "../../../Flipping Bits/flipping_bits.cc"; sourceTree = "<group>"; };
+		B163C0931A94CEFB00470EF6 /* alternating-characters-English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "alternating-characters-English.pdf"; sourceTree = "<group>"; };
+		B163C0981A94CF1B00470EF6 /* Alternating Characters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Alternating Characters"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B163C09A1A94CF1B00470EF6 /* alternating_characters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = alternating_characters.cpp; path = "../../../Alternating Characters/alternating_characters.cpp"; sourceTree = "<group>"; };
 		B16E63B81A90E08D00E6BD6B /* Solve Me First */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Solve Me First"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16E63BA1A90E08D00E6BD6B /* solve_me_first.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = solve_me_first.cc; sourceTree = "<group>"; };
 		B16E63D31A9119FE00E6BD6B /* solve-me-first-English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "solve-me-first-English.pdf"; sourceTree = "<group>"; };
@@ -75,6 +88,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B163C0891A94C63600470EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B163C0951A94CF1B00470EF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,6 +142,7 @@
 				B163C0821A94B39600470EF6 /* solve_me_second.cc */,
 				B18462751A92733D00ECC205 /* lonely-integer.cc */,
 				B163C08E1A94C63700470EF6 /* flipping_bits.cc */,
+				B163C09A1A94CF1B00470EF6 /* alternating_characters.cpp */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -133,6 +154,7 @@
 				B18462691A92728500ECC205 /* lonely-integer-English.pdf */,
 				B16E63D31A9119FE00E6BD6B /* solve-me-first-English.pdf */,
 				B163C0871A94C61C00470EF6 /* flipping-bits-English.pdf */,
+				B163C0931A94CEFB00470EF6 /* alternating-characters-English.pdf */,
 			);
 			path = problems;
 			sourceTree = "<group>";
@@ -154,6 +176,7 @@
 				B184626E1A9272E000ECC205 /* Lonely Integer */,
 				B163C0801A94B39600470EF6 /* Solve Me Second */,
 				B163C08C1A94C63600470EF6 /* Flipping Bits */,
+				B163C0981A94CF1B00470EF6 /* Alternating Characters */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,6 +216,23 @@
 			name = "Flipping Bits";
 			productName = "Flipping Bits";
 			productReference = B163C08C1A94C63600470EF6 /* Flipping Bits */;
+			productType = "com.apple.product-type.tool";
+		};
+		B163C0971A94CF1B00470EF6 /* Alternating Characters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B163C09C1A94CF1B00470EF6 /* Build configuration list for PBXNativeTarget "Alternating Characters" */;
+			buildPhases = (
+				B163C0941A94CF1B00470EF6 /* Sources */,
+				B163C0951A94CF1B00470EF6 /* Frameworks */,
+				B163C0961A94CF1B00470EF6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alternating Characters";
+			productName = "Alternating Characters";
+			productReference = B163C0981A94CF1B00470EF6 /* Alternating Characters */;
 			productType = "com.apple.product-type.tool";
 		};
 		B16E63B71A90E08D00E6BD6B /* Solve Me First */ = {
@@ -244,6 +284,9 @@
 					B163C08B1A94C63600470EF6 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
+					B163C0971A94CF1B00470EF6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
 					B16E63B71A90E08D00E6BD6B = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
@@ -268,6 +311,7 @@
 				B184626D1A9272E000ECC205 /* Lonely Integer */,
 				B163C07F1A94B39600470EF6 /* Solve Me Second */,
 				B163C08B1A94C63600470EF6 /* Flipping Bits */,
+				B163C0971A94CF1B00470EF6 /* Alternating Characters */,
 			);
 		};
 /* End PBXProject section */
@@ -286,6 +330,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B163C08F1A94C63700470EF6 /* flipping_bits.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B163C0941A94CF1B00470EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B163C09B1A94CF1B00470EF6 /* alternating_characters.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +392,26 @@
 			name = Debug;
 		};
 		B163C0921A94C63700470EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B163C09D1A94CF1B00470EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B163C09E1A94CF1B00470EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -473,6 +545,14 @@
 			buildConfigurations = (
 				B163C0911A94C63700470EF6 /* Debug */,
 				B163C0921A94C63700470EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B163C09C1A94CF1B00470EF6 /* Build configuration list for PBXNativeTarget "Alternating Characters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B163C09D1A94CF1B00470EF6 /* Debug */,
+				B163C09E1A94CF1B00470EF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
