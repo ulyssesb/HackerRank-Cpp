@@ -34,3 +34,5 @@ xcuserdata
 .Trashes
 *.swp
 *.lock
+.cproject
+.project
